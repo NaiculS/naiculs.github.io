@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: My awesome testing website
+title: Classes
 email: naiculs@dontemailme.com
 description: > # this means to ignore newlines until "baseurl:"
   Hey! I'm NaiculS, and this is my testing website! For the most part, unless you're me, there's no real reason for you to be here!
