@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Testing!"
-date:   2019-02-12
-categories: NaiculS Updates
----
-
-Hey there! It's me, your friendly neighborhood NaiculS here with another update!! :D
