@@ -1,23 +1,115 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">NaiculS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Find me elsewhere
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://github.com/NaiculS" target="_blank">Github</a>
+                      <a class="dropdown-item" href="https://discordapp.com/users/217649395208814592" target="_blank">Discord</a>
+                      <a class="dropdown-item" href="https://twitter.com/NaiculS" target="_blank">Twitter</a>
+                      <a class="dropdown-item" href="https://www.reddit.com/user/NaiculS" target="_blank">Reddit</a>
+                      <a class="dropdown-item" href="https://steamcommunity.com/id/naiculs" target="_blank">Steam</a>
+                      <a class="dropdown-item" href="https://namemc.com/profile/NaiculS.1" target="_blank">Minecraft</a>
+                      <a class="dropdown-item" href="https://www.twitch.tv/naiculs" target="_blank">Twitch</a>
+                      <a class="dropdown-item" href="https://www.youtube.com/channel/UCs_pfRys18OgqxQD0rmA-fg" target="_blank">YouTube</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="profiles.html">All</a>
+                    </div>
+                  </li>
 
-</div>
+
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html" aria-disabled="true">Contact</a>
+                  </li>
+                  <!--li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li-->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+        </nav>
+
+          <h1>Welcome to my Website!</h1>
+        <p> My name is NaiculS, and this is my website.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur
+        ridiculus mus. Vitae sapien pellentesque habitant morbi tristique senectus. Placerat in egestas erat imperdiet
+        sed euismod. Pharetra et ultrices neque ornare aenean. Sed arcu non odio euismod lacinia at quis. Mauris augue
+        neque gravida in fermentum et sollicitudin ac orci. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.
+        Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet consectetur adipiscing elit. Condimentum
+        vitae sapien pellentesque habitant. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Odio ut enim blandit
+        volutpat maecenas volutpat. Bibendum neque egestas congue quisque egestas diam in arcu. At volutpat diam ut venenatis.
+        Arcu non sodales neque sodales ut etiam. Adipiscing elit duis tristique sollicitudin nibh. Velit egestas dui id ornare.
+        Dui vivamus arcu felis bibendum ut tristique et egestas. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc.
+        Quis commodo odio aenean sed adipiscing diam donec adipiscing. Viverra adipiscing at in tellus integer feugiat.
+        Vestibulum rhoncus est pellentesque elit ullamcorper. Nunc sed id semper risus in hendrerit gravida rutrum quisque.
+        Cras sed felis eget velit aliquet sagittis id consectetur purus. Dolor purus non enim praesent elementum facilisis.
+        Nisl tincidunt eget nullam non nisi est sit. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus.
+        Facilisi morbi tempus iaculis urna id. Scelerisque fermentum dui faucibus in ornare quam. Metus dictum at tempor commodo
+        ullamcorper a lacus vestibulum. Vitae congue mauris rhoncus aenean vel elit scelerisque. Sit amet commodo nulla facilisi
+        nullam vehicula ipsum a. Nascetur ridiculus mus mauris vitae ultricies. Mus mauris vitae ultricies leo integer malesuada.
+        Ultricies integer quis auctor elit sed vulputate mi sit. Velit euismod in pellentesque massa placerat duis ultricies.
+        Nulla at volutpat diam ut venenatis tellus. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Egestas sed tempus urna et pharetra.
+        Curabitur gravida arcu ac tortor dignissim convallis aenean et. Turpis cursus in hac habitasse. Donec et odio pellentesque diam volutpat commodo sed.
+        Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Tincidunt praesent semper feugiat nibh sed pulvinar proin.
+        Urna nunc id cursus metus aliquam. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Adipiscing elit ut aliquam purus.
+        Sit amet volutpat consequat mauris nunc congue nisi. Cursus turpis massa tincidunt dui ut ornare. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.
+        Magna fringilla urna porttitor rhoncus dolor purus non enim. Nam libero justo laoreet sit. Purus non enim praesent elementum facilisis leo vel fringilla est.
+        Eu nisl nunc mi ipsum faucibus. At augue eget arcu dictum varius duis at consectetur lorem.
+        Integer vitae justo eget magna fermentum iaculis. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc.
+        Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
+        Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Arcu vitae elementum curabitur vitae nunc.
+        Rhoncus dolor purus non enim. Volutpat est velit egestas dui id ornare arcu. Vel turpis nunc eget lorem dolor. Diam vulputate ut pharetra sit amet aliquam id diam maecenas.
+        Et ultrices neque ornare aenean euismod elementum. Sed nisi lacus sed viverra. Enim ut sem viverra aliquet eget sit amet tellus.
+        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Ultricies integer quis auctor elit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et.
+        Adipiscing commodo elit at imperdiet. Volutpat est velit egestas dui id ornare arcu odio ut. Blandit libero volutpat sed cras ornare arcu dui vivamus.
+        Morbi non arcu risus quis varius quam quisque. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Mi quis hendrerit dolor magna eget est lorem ipsum dolor.
+        In hac habitasse platea dictumst vestibulum rhoncus est. Interdum varius sit amet mattis vulputate enim nulla. Massa id neque aliquam vestibulum morbi blandit.
+        In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Nisi vitae suscipit tellus mauris. Nascetur ridiculus mus mauris vitae ultricies leo integer.
+        Commodo viverra maecenas accumsan lacus. Nisi scelerisque eu ultrices vitae auctor eu. Ornare massa eget egestas purus viverra accumsan.
+        Eget egestas purus viverra accumsan in nisl nisi scelerisque. Malesuada nunc vel risus commodo viverra. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.
+        Risus viverra adipiscing at in tellus integer feugiat. Arcu dictum varius duis at consectetur lorem donec. Ac turpis egestas sed tempus urna et pharetra pharetra massa.
+        Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus. Et sollicitudin ac orci phasellus egestas tellus rutrum. Nunc consequat interdum varius sit.
+        A diam maecenas sed enim ut. Nunc eget lorem dolor sed viverra. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Arcu risus quis varius quam quisque.
+        Lacus viverra vitae congue eu consequat ac.</p>
+        hello, homepage
+
+
+
+      <footer>
+        <div class="container">
+          <div class="small text-center text-muted">Copyright &#169; 2021 - NaiculS</div>
+        </div>
+      </footer>
+    </body>
+</html>
